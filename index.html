@@ -595,6 +595,11 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <p class="modal-name">Залиште свої дані, ми вам передзвонимо</p>
+        <button type="button" class="button-close-modal" data-modal-close>
+          <svg class="icon">
+            <use href="./images/icons.svg#icon-modal-close-button"></use>
+          </svg>
+        </button>
         <form class="modal-form" autocomplete="off">
           <ul class="form-list">
             <li class="form-field">
@@ -647,7 +652,7 @@
                 ></textarea>
               </div>
             </li>
-            <li class="form-field">
+            <li class="form-field check">
               <label class="label checkbox">
                 <input
                   class="input-checkbox"
@@ -671,11 +676,6 @@
             Відправити
           </button>
         </form>
-        <button type="button" class="button-close-modal" data-modal-close>
-          <svg class="icon">
-            <use href="./images/icons.svg#icon-modal-close-button"></use>
-          </svg>
-        </button>
       </div>
     </div>
 
